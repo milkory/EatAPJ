@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '爱拍鸡大骂了一声草';
+        if (cps <= 8) return '爱拍鸡：笑拉';
+        if (cps <= 10)  return '爱拍鸡：妈的，就这点能耐？';
+        if (cps <= 15) return '爱拍鸡：您';
+        return '爱拍鸡：人？';
     }
 
     function toStr(obj) {
